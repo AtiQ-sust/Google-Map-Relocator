@@ -1,6 +1,6 @@
 
 function initMap() {
-    var losAngeles = {
+    let losAngeles = {
         lat: 34.063380, 
         lng: -118.358080
     };
@@ -9,4 +9,7 @@ function initMap() {
         zoom: 11,
         mapTypeId: 'roadmap',
     });
+
+    // The marker, positioned at losAngeles
+    let marker = new google.maps.Marker({position: losAngeles, map: map});
 }
