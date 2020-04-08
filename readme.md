@@ -1,5 +1,5 @@
 ## Live Site Link
-https://gmaplocat.imfast.io/
+https://gmaplocate.imfast.io/
 
 ## Design Link
 
